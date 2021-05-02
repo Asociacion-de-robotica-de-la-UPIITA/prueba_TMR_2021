@@ -6,9 +6,9 @@ IROS
 
 <h1>Instrucciones:</h1>
 <ol>
-<li>Clonar este repositorio dentro de <catkin_ws>/src </li>
-<li>Clonar el repositorio de tum_simulador dentro de <catkin_ws>/src</li>
-<li>Clonar el repositorio de arDroneSimulator dentro de <catkin_ws>/src</li>
+<li>Clonar este repositorio dentro de {catkin_ws}/src </li>
+<li>Clonar el repositorio de tum_simulador dentro de {catkin_ws}/src</li>
+<li>Clonar el repositorio de arDroneSimulator dentro de {catkin_ws}/src</li>
 <li>Descargar modelos extra de https://github.com/EricDiazR/Gazebo_extra_models y copiar dentro del directorio /home/<nombre_de_usuario>/.gazebo/models</li>
 <li>Ir a /home/<catkin_ws> y ejecutar la linea catkin_make</li>
 </ol>
