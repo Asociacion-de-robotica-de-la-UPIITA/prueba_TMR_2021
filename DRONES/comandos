@@ -1,4 +1,0 @@
-rostopic pub --once bebop_ws2/takeoff std_msgs/Empty	
-
-rostopic pub --once bebop_ws2/land std_msgs/Empty
-
