@@ -7,6 +7,12 @@
   <!-- Spawn simulated quadrotor uav -->
   <include file="$(find cvg_sim_gazebo)/launch/spawn_quadrotor.launch" >
     <arg name="model" value="$(find cvg_sim_gazebo)/urdf/quadrotor_sensors.urdf.xacro"/> 
+   <arg name="x" default="-29"/>
+   <arg name="y" default="0"/>
+   <arg name="z" default="0.5"/>
+   <arg name="R" default="0"/>
+   <arg name="P" default="0"/>
+   <arg name="Y" default="0"/>
   </include>
 
 
