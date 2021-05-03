@@ -2,7 +2,7 @@
 <launch>
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find prueba_TMR)/worlds/calle_ventanas.world"/>
+    <arg name="world_name" value="$(find cruce_de_ventanas)/worlds/calle_ventanas.world"/>
   </include>
   <!-- Spawn simulated quadrotor uav -->
   <include file="$(find cvg_sim_gazebo)/launch/spawn_quadrotor.launch" >
