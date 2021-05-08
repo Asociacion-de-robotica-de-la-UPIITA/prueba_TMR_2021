@@ -14,6 +14,10 @@
    <arg name="P" default="0"/>
    <arg name="Y" default="0"/>
   </include>
+  <!--Añadimos el nodo imagen_segmentada dentro del paquete de cruce de ventanas del archivo segmentacion_naranja.py 
+  que está dentro de la carpeta src, siendo su salida la pantalla-->
+<node name="imagen_segmentada" pkg="cruce_de_ventanas" type="segmentacion_naranja.py" output="screen"/>
+
 
 
 </launch>
