@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find reconstruccion)/worlds/mundo.world"/><!--TODO aniadir mundo-->
+  </include>
+  <!-- Spawn simulated quadrotor uav -->
+  <include file="$(find cvg_sim_gazebo)/launch/spawn_quadrotor.launch" >
+    <arg name="model" value="$(find cvg_sim_gazebo)/urdf/quadrotor_sensors.urdf.xacro"/> 
+   <arg name="x" default="-29"/>
+   <arg name="y" default="0"/>
+   <arg name="z" default="0.5"/>
+   <arg name="R" default="0"/>
+   <arg name="P" default="0"/>
+   <arg name="Y" default="0"/>
+  </include>
+  <!--Añadimos el nodo imagen_segmentada dentro del paquete de cruce de ventanas del archivo segmentacion_naranja.py 
+  que está dentro de la carpeta src, siendo su salida la pantalla-->
+<node name="imagen_segmentada" pkg="cruce_de_ventanas" type="segmentacion_naranja.py" output="screen"/>
+
+
+
+</launch>
