@@ -133,6 +133,122 @@
       </link>
       <pose frame=''>-0.263928 0.275813 0 0 -0 0</pose>
     </model>
+    <state world_name='default'>
+      <sim_time>333 176000000</sim_time>
+      <real_time>44 665820605</real_time>
+      <wall_time>1621379383 686293299</wall_time>
+      <iterations>43482</iterations>
+      <model name='ground_plane'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='warehouse'>
+        <pose frame=''>-0.349723 0.352561 -0.018647 -0.000309 -4.6e-05 -0.000696</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>-0.349728 0.352592 0.081353 -0.000309 -4.6e-05 -0.000696</pose>
+          <velocity>0.000228 -5.9e-05 0.000584 2.8e-05 -2e-06 -6e-06</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window'>
+        <pose frame=''>2.55385 -31.7415 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>2.55385 -31.7415 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_0'>
+        <pose frame=''>1.66522 -27.8289 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>1.66522 -27.8289 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_1'>
+        <pose frame=''>1.06072 -23.463 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>1.06072 -23.463 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_2'>
+        <pose frame=''>1.49913 -19.1794 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>1.49913 -19.1794 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_3'>
+        <pose frame=''>0.376954 -15.1654 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>0.376954 -15.1654 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_4'>
+        <pose frame=''>0.594313 -10.0077 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>0.594313 -10.0077 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_5'>
+        <pose frame=''>-0.509187 -5.69227 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>-0.509187 -5.69227 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='window_6'>
+        <pose frame=''>0.357259 -1.31714 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>0.357259 -1.31714 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose frame=''>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>-31.1249 22.0642 23.1485 -0 0.300964 -0.651697</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
     <model name='window'>
       <link name='link_1'>
         <inertial>
@@ -179,7 +295,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-3.10757 -35.3496 0 0 -0 0</pose>
+      <pose frame=''>2.55385 -31.7415 0 0 -0 0</pose>
     </model>
     <model name='window_0'>
       <link name='link_1'>
@@ -227,7 +343,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-1.45417 -25.8448 0 0 -0 0</pose>
+      <pose frame=''>1.66522 -27.8289 0 0 -0 0</pose>
     </model>
     <model name='window_1'>
       <link name='link_1'>
@@ -275,7 +391,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-2.57068 -17.9345 0 0 -0 0</pose>
+      <pose frame=''>1.06072 -23.463 0 0 -0 0</pose>
     </model>
     <model name='window_2'>
       <link name='link_1'>
@@ -323,7 +439,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-1.31382 -8.60664 0 0 -0 0</pose>
+      <pose frame=''>1.49913 -19.1794 0 0 -0 0</pose>
     </model>
     <model name='window_3'>
       <link name='link_1'>
@@ -371,124 +487,8 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0.952026 -2.38716 0 0 -0 0</pose>
+      <pose frame=''>0.376954 -15.1654 0 0 -0 0</pose>
     </model>
-    <state world_name='default'>
-      <sim_time>289 694000000</sim_time>
-      <real_time>78 602674332</real_time>
-      <wall_time>1621378676 962007032</wall_time>
-      <iterations>78280</iterations>
-      <model name='ground_plane'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='warehouse'>
-        <pose frame=''>-0.238718 0.288201 -0.043881 -0.000665 -0 -0.00055</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>-0.238718 0.288267 0.056119 -0.000665 -0 -0.00055</pose>
-          <velocity>0.000228 -5.9e-05 0.000584 -7e-06 -0 -1e-06</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window'>
-        <pose frame=''>-3.10757 -35.3496 8e-06 0 -1.6e-05 1.6e-05</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>-3.10757 -35.3496 0.100008 0 -1.6e-05 1.6e-05</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_0'>
-        <pose frame=''>-1.45417 -25.8448 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>-1.45417 -25.8448 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_1'>
-        <pose frame=''>-2.56951 -17.9345 0.004688 -1.2e-05 -0.011644 8.1e-05</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>-2.57067 -17.9345 0.104681 -1.2e-05 -0.011644 8.1e-05</pose>
-          <velocity>0 0 1.9e-05 0 -4.7e-05 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_2'>
-        <pose frame=''>-1.31382 -8.60664 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>-1.31382 -8.60664 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_3'>
-        <pose frame=''>0.952026 -2.38716 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>0.952026 -2.38716 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_4'>
-        <pose frame=''>0.292557 6.33779 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>0.292557 6.33779 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_5'>
-        <pose frame=''>0.313273 25.2187 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>0.313273 25.2187 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='window_6'>
-        <pose frame=''>-0.663431 15.8369 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_1'>
-          <pose frame=''>-0.663431 15.8369 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <light name='sun'>
-        <pose frame=''>0 0 10 0 -0 0</pose>
-      </light>
-    </state>
-    <gui fullscreen='0'>
-      <camera name='user_camera'>
-        <pose frame=''>-18.6782 -1.40092 6.28517 0 0.189093 0.938281</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
-      </camera>
-    </gui>
     <model name='window_4'>
       <link name='link_1'>
         <inertial>
@@ -535,7 +535,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0.292557 6.33779 0 0 -0 0</pose>
+      <pose frame=''>0.594313 -10.0077 0 0 -0 0</pose>
     </model>
     <model name='window_5'>
       <link name='link_1'>
@@ -583,7 +583,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0.313273 25.2187 0 0 -0 0</pose>
+      <pose frame=''>-0.509187 -5.69227 0 0 -0 0</pose>
     </model>
     <model name='window_6'>
       <link name='link_1'>
@@ -631,7 +631,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-0.663431 15.8369 0 0 -0 0</pose>
+      <pose frame=''>0.357259 -1.31714 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
