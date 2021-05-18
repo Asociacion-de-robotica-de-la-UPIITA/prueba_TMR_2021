@@ -844,10 +844,10 @@
       <pose frame=''>-9.49291 5.65124 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>351 726000000</sim_time>
-      <real_time>171 740004687</real_time>
-      <wall_time>1620009928 911347483</wall_time>
-      <iterations>170399</iterations>
+      <sim_time>461 642000000</sim_time>
+      <real_time>110 100929504</real_time>
+      <wall_time>1621375653 783586129</wall_time>
+      <iterations>109916</iterations>
       <model name='bars'>
         <pose frame=''>1.95472 2.06205 -0.159639 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -959,7 +959,7 @@
         </link>
       </model>
       <model name='bench_5'>
-        <pose frame=''>14.5081 -6.07077 0 0 -0 -3.14159</pose>
+        <pose frame=''>14.5081 -6.07077 -0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>14.5081 -6.07077 0.1 0 -0 -3.14159</pose>
@@ -969,7 +969,7 @@
         </link>
       </model>
       <model name='bench_5_clone'>
-        <pose frame=''>14.6452 -4.29777 0 0 0 -3.14159</pose>
+        <pose frame=''>14.6452 -4.29777 -0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>14.6452 -4.29777 0.1 0 0 -3.14159</pose>
@@ -979,7 +979,7 @@
         </link>
       </model>
       <model name='bench_5_clone_0'>
-        <pose frame=''>14.7582 0.67915 0 0 0 -3.14159</pose>
+        <pose frame=''>14.7582 0.67915 -0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>14.7582 0.67915 0.1 0 0 -3.14159</pose>
@@ -989,7 +989,7 @@
         </link>
       </model>
       <model name='bench_5_clone_1'>
-        <pose frame=''>14.7688 2.35286 0 0 0 -3.14159</pose>
+        <pose frame=''>14.7688 2.35286 -0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>14.7688 2.35286 0.1 0 0 -3.14159</pose>
@@ -999,7 +999,7 @@
         </link>
       </model>
       <model name='bench_5_clone_2'>
-        <pose frame=''>14.6769 7.07477 0 0 0 -3.14159</pose>
+        <pose frame=''>14.6769 7.07477 -0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>14.6769 7.07477 0.1 0 0 -3.14159</pose>
@@ -1009,7 +1009,7 @@
         </link>
       </model>
       <model name='bench_5_clone_3'>
-        <pose frame=''>14.8107 8.78745 0 0 0 -3.14159</pose>
+        <pose frame=''>14.8107 8.78745 -0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>14.8107 8.78745 0.1 0 0 -3.14159</pose>
@@ -1083,6 +1083,16 @@
         <scale>1 1 1</scale>
         <link name='link_1'>
           <pose frame=''>-4.54638 1.76254 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='skybox_2'>
+        <pose frame=''>-0.435334 0.015957 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_1'>
+          <pose frame=''>-0.435334 0.015957 0.1 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1912,6 +1922,54 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>11.2047 0.125129 0 0 -0 0</pose>
+    </model>
+    <model name='skybox_2'>
+      <link name='link_1'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.166667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.166667</iyy>
+            <iyz>0</iyz>
+            <izz>0.166667</izz>
+          </inertia>
+        </inertial>
+        <gravity>0</gravity>
+        <pose frame=''>0 0 0.1 0 -0 0</pose>
+        <visual name='skybox_2_visual'>
+          <geometry>
+            <mesh>
+              <uri>model://skybox_2/skybox.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='skybox_2_collision'>
+          <geometry>
+            <mesh>
+              <uri>model://skybox_2/skybox.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-0.435334 0.015957 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>

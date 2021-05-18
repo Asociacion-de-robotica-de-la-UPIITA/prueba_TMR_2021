@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/eric/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/eric/catkin_ws/src/ROS_Packages/Image_viewer/include/**",
+        "/home/eric/catkin_ws/src/bebop_autonomy/bebop_driver/include/**",
+        "/home/eric/catkin_ws/src/ROS_Packages/control_frontal/include/**",
+        "/home/eric/catkin_ws/src/tum_simulator/cvg_sim_gazebo_plugins/include/**",
+        "/home/eric/catkin_ws/src/tum_simulator/cvg_sim_msgs/include/**",
+        "/home/eric/catkin_ws/src/ROS_Packages/dataset/include/**",
+        "/home/eric/catkin_ws/src/ROS_Packages/teclado/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -39,13 +39,13 @@ class LoadImage(object):
         #Abrimos una nueva ventana que nos muestre la imagen original tomada en tiempo real 
         cv2.imshow('Imagen BGR',imagenBRG)
         #Abrimos una nueva ventana que nos muestre la imagen en HSV en tiempo teal
-        cv2.imshow('Imagen HSV',cv_image)
+        #cv2.imshow('Imagen HSV',cv_image)
         #Abrimos una nueva ventana que nos muestre la mascara en tiempo real
-        cv2.imshow('mascara',mask)
+        #cv2.imshow('mascara',mask)
         #Abrimos una nueva ventana que nos muestre la imagen de respuesta en BGR
         cv2.imshow('salida BGR',res_bgr)
         #Abrimos una nueva ventana que nos muestre la imagen de respuesta en HSV
-        cv2.imshow('salida HSV',res)
+        #cv2.imshow('salida HSV',res)
 
         cv2.waitKey(1)
 
